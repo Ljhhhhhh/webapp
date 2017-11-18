@@ -1,0 +1,38 @@
+/**
+ * @Date:   2017-11-16T16:10:54+08:00
+ * @Last modified time: 2017-11-17T12:58:09+08:00
+ */
+body {
+  margin: 0;
+  padding: 0;
+  background: #333;
+  overflow: hidden;
+  height: 100%;
+}
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+#canvas {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+#canvas li {
+  position: absolute;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  -webkit-backface-visibility: hidden;
+}
+#canvas li img {
+  vertical-align: middle;
+}
+#canvas ul,
+#canvas li {
+  height: 100%;
+  width: 100%;
+}
